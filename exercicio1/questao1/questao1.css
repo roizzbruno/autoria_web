@@ -1,0 +1,11 @@
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #5D3A3A; 
+  }
+  
+  .box.verde {
+    width: 200px;
+    height: 150px;
+    background-color: #B5E0BA;
+  }

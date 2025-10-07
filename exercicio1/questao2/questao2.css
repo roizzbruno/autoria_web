@@ -1,0 +1,24 @@
+.p {
+    width: 400px;
+    height: 300px;
+}
+.f1 {
+    background-color: #f7ec7d;
+    width: 300px;
+    height: 30px;
+}
+.f2 {
+    background-color: #e38f66;
+    width: 300px;
+    height: 25px;
+}
+.f3 {
+    background-color: #aa445f;
+    width: 300px;
+    height: 50px;
+}
+.f4 {
+    background-color: #62306d;
+    width: 300px;
+    height: 50px;
+}
