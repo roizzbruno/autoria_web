@@ -1,0 +1,32 @@
+.container {
+    width: 700px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    background-color: aqua;
+}
+.item {
+    background-color: white;
+    border: 8px solid wheat;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.h {
+    grid-column: 1/5;
+}
+.m {
+    grid-column: 1;
+    grid-row: 2/4;
+}
+.ma {
+    grid-column: 2/4;
+}
+.r {
+    grid-column: 4;
+}
+.f {
+    grid-column: 2/5;
+}
