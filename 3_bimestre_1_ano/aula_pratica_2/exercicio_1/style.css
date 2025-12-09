@@ -1,0 +1,19 @@
+.pipoca {
+    background-color: salmon;
+    height: 300px;
+    width: 400px;
+}
+.pippos {
+    background-color: rgb(255, 253, 136);
+    display: flex;
+    text-align: end;
+    height: 10px;
+    width: 150px;
+}
+.pippos2 {
+    background-color: burlywood;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}

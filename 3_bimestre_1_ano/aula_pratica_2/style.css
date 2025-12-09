@@ -1,0 +1,12 @@
+.flex-container {
+    background-color: burlywood;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container > div {
+    background-color: brown;
+    height: 10px;
+    width: 10px;
+}

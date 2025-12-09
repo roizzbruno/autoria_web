@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Eventos - IFRN</title>
+</head>
+<body>
+    <h1>Cadastre seu evento abaixo:</h1>
+    <form>
+        <label for="ne">Nome do Evento:</label>
+            <input type="text" id="ne" required> <br>
+        <label for="dt">Data do Evento</label>
+            <input type="date" id="dt" min="2025-07-01"> <br> 
+        <label for="in">Horário de Início:</label>
+            <input type="time" id="in"> <br> 
+        <label for="te">Horário de Término:</label>
+            <input type="time" id="te"> <br>
+        <label for="tp">Tipo de Evento:</label>
+            <select name="eventos" id="tp">
+                <option value="Palestra">Palestra</option>
+                <option value="Oficina">Oficina</option>
+                <option value="AulaExtra">Aula Extra</option>
+                <option value="Reunião">Reunião</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <p>Deseja certificação?</p>
+                <input type="radio" id="sim" name="comida_fav" value="sim" >
+                <label for="sim">Sim</label>
+                <input type="radio" id="sim" name="comida_fav" value="sim" >
+                <label for="sim">Não</label>
+            
+                
+    </form>
+</body>
+</html>

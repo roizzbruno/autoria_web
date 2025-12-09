@@ -1,0 +1,17 @@
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: mediumturquoise;
+}
+#primeiroP {
+    color: red;
+}
+.txt {
+    color: violet;
+}
+* {
+    text-align: center;
+}
+p.slogan {
+    background-color: gray;
+    text-align: center;
+}

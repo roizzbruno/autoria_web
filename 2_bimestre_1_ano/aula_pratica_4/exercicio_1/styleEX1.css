@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+}
+#imagens{
+    color: brown;
+    line-height: normal;
+}
+#cabecalho{
+    color: rgb(192, 189, 189);
+    font-size: 18px;
+}
+h1.titulos{
+    color: red;
+    text-align: center;
+} 
+h3.titulos{
+    color: blue;
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+}

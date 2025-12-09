@@ -1,0 +1,26 @@
+#introducao{
+    border: 2px;
+    border-color: blue;
+    background-color: rgb(165, 165, 165);
+}
+.ingrediente{
+    color: darkgreen;
+    font-style: italic;
+}
+h2{
+    width: 24px;
+    text-align: center;
+    color: #4b280a;
+}
+.receita{
+    background-color: yellow;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+}
+.email{
+    color: blue;
+    font-style: italic;
+}
+
