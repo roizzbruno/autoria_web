@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Temperatura</title>
+</head>
+<body>
+    <script>
+        function toFahrenheit(c){
+            let f = (c * 1.8) + 32
+            return f
+        }
+        let c = Number(prompt('Qual a temperatura em Celsius? (Exemplo: 28)'))
+        alert('A sua temperatura em Fahrenhet é: ' + toFahrenheit(c))
+    </script>
+</body>
+</html>

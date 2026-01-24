@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto</title>
+</head>
+<body>
+    <script>
+        function calcDesc(p, d){
+            let des = p * (d/100)
+            let pCd = p - des
+            return pCd
+        }
+        let p = parseFloat(prompt('Digite o preço original do produto: '))
+        let d = parseFloat(prompt('Qual a porcentagem de desconto? (Exemplo: 15)'))
+        alert('Seu preço final com o desconto é igual a: R$' + calcDesc(p, d))
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo e minutos</title>
+</head>
+<body>
+    <script>
+        function converterTempo(m){
+            let hora = m / 60;
+            let min = m % 60;
+            return `Essa tempo em minutos equivale a: ${hora} horas e ${min} minutos`
+        }
+        let m = Number(prompt('Digite uma quantidade de minutos para fazer a conversão para horas: '))
+        alert(converterTempo(m))
+    </script>
+</body>
+</html>

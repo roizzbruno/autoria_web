@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário</title>
+</head>
+<body>
+    <script>
+        function salario(h, vPh){
+            let s = h * vPh
+            return s
+        }
+        let h = parseFloat(prompt('Quantas horas você trabalhou no mês? '))
+        let vPh = parseFloat(prompt('Quanto você recebe por hora?'))
+        alert('Seu salário é R$' + salario(h, vPh))
+    </script>
+</body>
+</html>
