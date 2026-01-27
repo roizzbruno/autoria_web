@@ -8,8 +8,8 @@
 <body>
     <script>
         function converterTempo(m){
-            let hora = m / 60;
             let min = m % 60;
+            let hora = (m - min) / 60;
             return `Essa tempo em minutos equivale a: ${hora} horas e ${min} minutos`
         }
         let m = Number(prompt('Digite uma quantidade de minutos para fazer a conversão para horas: '))
