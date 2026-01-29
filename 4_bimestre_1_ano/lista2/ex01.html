@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDADE</title>
+</head>
+<body>
+    <script>
+        function vefId(id) {
+            let res
+            if (id >= 18) {
+                res = 'maior de idade'
+            } else {
+                res = 'menor de idade'
+            }
+            return res
+        }
+        let id = parseInt(prompt("Digite sua idade: "))
+        alert(vefId(id))
+    </script>
+</body>
+</html>
