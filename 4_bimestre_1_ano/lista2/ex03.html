@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function classNot(n) {
+            let res
+            if (n < 5) {
+                res = 'REPROVADO'
+            } else if(n > 5 && n < 6.9) {
+                res = 'RECUPERAÇÃO'
+            } else {
+                res = 'APROVADO'
+            }
+            return res
+        }
+        let n = Number(prompt('Digite sua nota: '))
+        alert(`Sua nota foi: ${n}, e você está: ` + classNot(n))
+    </script>
+</body>
+</html>
