@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function diaS(d){
+            let res
+            switch (d) {
+            case 1:
+                res = 'o Domimngo'
+            break
+            case 2:
+                res = 'a Segunda'
+            break
+            case 3:
+                res = 'a Terça'
+            break
+            case 4: 
+                res = 'a Quarta'
+            break
+            case 5: 
+                res = 'a Quinta'
+            break
+            case 6: 
+                res = 'a Sexta'
+            break
+            case 7: 
+                res = 'o Sábado'
+            break
+            default: 
+                res = 'Dia Indefinido'
+            }
+        return res
+        }
+        let d = Number(prompt('Digite o número da semana (1, 2, 3, 4, 5, 6 ou 7): '))
+        alert(`O dia ${d} é ` + diaS(d))
+    </script>
+</body>
+</html>
